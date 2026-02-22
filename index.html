@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Proyek WebGIS</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; margin: 0; background: #f4f7f6; }
+        nav { background: #5992b0; color: white; padding: 15px; text-align: center; }
+        nav a { color: white; text-decoration: none; margin: 0 15px; font-weight: bold; }
+        main { padding: 20px; max-width: 800px; margin: 20px auto; background: white; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        footer { text-align: center; padding: 10px; background: #333; color: white; position: fixed; bottom: 0; width: 100%; }
+        
+        /* CSS Responsive */
+        @media (max-width: 600px) {
+            nav a { display: block; margin: 10px 0; }
+            main { margin: 10px; }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a> | <a href="about.html">About</a> | <a href="map.html">Map</a>
+    </nav>
+    <main>
+        <h1>Judul Proyek: Visualisasi Lokasi Mobil</h1>
+        <p>Proyek ini dibuat untuk menampilkan persebaran lokasi mobil secara interaktif menggunakan data dari API Flask.</p>
+        <h3>Daftar Fitur:</h3>
+        <ul>
+            <li>Peta Interaktif Folium</li>
+            <li>Analisis Buffer Spasial</li>
+            <li>Integrasi Python Backend</li>
+        </ul>
+    </main>
+    <footer><p>Mapid WebGIS Day 4 - 2026</p></footer>
+</body>
+</html>
